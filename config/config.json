@@ -1,0 +1,1653 @@
+{
+    "Bot": {
+        "Token": "OTYwMzE3MjIyNjMzNDcyMDQx.YkorGw.Dfbt77o0ThI3NrAQf7HvCm-U6hM",
+        "Prefix": "!"
+    },
+    "Loader": {
+        "Download": "https://download.cheats.ac/loader.zip"
+    },
+    "Style": {
+        "EmbedColor": "00d3ff"
+    },
+    "Giveaway": {
+        "Channel": "giveaways",
+        "Reaction": "\uD83C\uDF89"
+    },
+    "Ticket": {
+        "Channel": "open-ticket",
+        "Types": {
+            "general-support": {
+                "Category": "General Support",
+                "Embed Message": "Explain your issue here and we will respond as soon as we can"
+            },
+            "payment-support": {
+                "Category": "Payment Support",
+                "Embed Message": "Let us know what payment method you want to use and we will respond as soon as we can"
+            },
+            "product-support": {
+                "Category": "Product Support",
+                "Embed Message": "Let us know what product(s) you are having issues with and we will respond as soon as we can"
+            },
+            "close-ticket": {
+                "Category": "Closed Tickets"
+            }
+        }
+    },
+    "Status": {
+        "Undetected": "\uD83D\uDFE2",
+        "Testing": "\uD83D\uDFE0",
+        "Detected": "\uD83D\uDD34",
+        "Development": "\uD83D\uDD28"
+    },
+    "Server": {
+        "TOS": "By purchasing any product from \"ACmain\" you agree to these terms of service. These can change at any time without warning or notice.\nAfter purchasing any product you forfeit your right to refund, chargeback or anything similar. Refunds may be given out on a user by user basis but is not required or expected. You agree that no tools of any kind will be used to reverse engineer any product, and doing so your license may be terminated or suspended. Your license may be suspended, paused or removed at any time for any reason deemed fit by staff. You agree that you are not part of any anti-cheat development or associated with any anti-cheat provider. Using this product will log identifying information about your computer such as IP and other hardware serial numbers for security purposes and will only be accessed by product staff. Understand all risks when using software, ACmain will hold no responsibility for any users' PC or game account safety but will always try and notify of possible issues.",
+        "Name": "ACmain",
+        "Icon": "/images/logo.jpg",
+        "Roles": {
+            "1": {
+                "Role Name": "@everyone",
+                "Role Color": "000000",
+                "Display role separately from online members": false,
+                "Allow anyone to @mention this role": false,
+                "Can View Tickets": false,
+                "Permissions": {
+                    "view_channel": false,
+                    "manage_channels": false,
+                    "manage_roles": false,
+                    "manage_emojis": false,
+                    "manage_webhooks": false,
+                    "manage_guild": false,
+                    "create_instant_invite": true,
+                    "change_nickname": false,
+                    "manage_nicknames": false,
+                    "kick_members": false,
+                    "ban_members": false,
+                    "send_messages": false,
+                    "embed_links": true,
+                    "attach_files": false,
+                    "add_reactions": true,
+                    "external_emojis": true,
+                    "mention_everyone": false,
+                    "manage_messages": false,
+                    "read_message_history": true,
+                    "send_tts_messages": false,
+                    "use_slash_commands": true,
+                    "connect": true,
+                    "speak": true,
+                    "priority_speaker": false,
+                    "mute_members": false,
+                    "deafen_members": false,
+                    "move_members": false,
+                    "administrator": false
+                }
+            },
+            "2": {
+                "Role Name": "Verified",
+                "Role Color": "000000",
+                "Display role separately from online members": true,
+                "Allow anyone to @mention this role": false,
+                "Can View Tickets": false,
+                "Permissions": {
+                    "view_channel": true,
+                    "manage_channels": false,
+                    "manage_roles": false,
+                    "manage_emojis": false,
+                    "manage_webhooks": false,
+                    "manage_guild": false,
+                    "create_instant_invite": true,
+                    "change_nickname": true,
+                    "manage_nicknames": false,
+                    "kick_members": false,
+                    "ban_members": false,
+                    "send_messages": true,
+                    "embed_links": true,
+                    "attach_files": false,
+                    "add_reactions": true,
+                    "external_emojis": true,
+                    "mention_everyone": false,
+                    "manage_messages": false,
+                    "read_message_history": true,
+                    "send_tts_messages": false,
+                    "use_slash_commands": true,
+                    "connect": true,
+                    "speak": true,
+                    "priority_speaker": false,
+                    "mute_members": false,
+                    "deafen_members": false,
+                    "move_members": false,
+                    "administrator": false
+                }
+            },
+            "3": {
+                "Role Name": "Public User",
+                "Role Color": "7800ff",
+                "Display role separately from online members": true,
+                "Allow anyone to @mention this role": false,
+                "Can View Tickets": false,
+                "Permissions": {
+                    "view_channel": true,
+                    "manage_channels": false,
+                    "manage_roles": false,
+                    "manage_emojis": false,
+                    "manage_webhooks": false,
+                    "manage_guild": false,
+                    "create_instant_invite": true,
+                    "change_nickname": true,
+                    "manage_nicknames": false,
+                    "kick_members": false,
+                    "ban_members": false,
+                    "send_messages": true,
+                    "embed_links": true,
+                    "attach_files": false,
+                    "add_reactions": true,
+                    "external_emojis": true,
+                    "mention_everyone": false,
+                    "manage_messages": false,
+                    "read_message_history": true,
+                    "send_tts_messages": false,
+                    "use_slash_commands": true,
+                    "connect": true,
+                    "speak": true,
+                    "priority_speaker": false,
+                    "mute_members": false,
+                    "deafen_members": false,
+                    "move_members": false,
+                    "administrator": false
+                }
+            },
+            "4": {
+                "Role Name": "Private User",
+                "Role Color": "fb02fd",
+                "Display role separately from online members": true,
+                "Allow anyone to @mention this role": false,
+                "Can View Tickets": false,
+                "Permissions": {
+                    "view_channel": true,
+                    "manage_channels": false,
+                    "manage_roles": false,
+                    "manage_emojis": false,
+                    "manage_webhooks": false,
+                    "manage_guild": false,
+                    "create_instant_invite": true,
+                    "change_nickname": true,
+                    "manage_nicknames": false,
+                    "kick_members": false,
+                    "ban_members": false,
+                    "send_messages": true,
+                    "embed_links": true,
+                    "attach_files": false,
+                    "add_reactions": true,
+                    "external_emojis": true,
+                    "mention_everyone": false,
+                    "manage_messages": false,
+                    "read_message_history": true,
+                    "send_tts_messages": false,
+                    "use_slash_commands": true,
+                    "connect": true,
+                    "speak": true,
+                    "priority_speaker": false,
+                    "mute_members": false,
+                    "deafen_members": false,
+                    "move_members": false,
+                    "administrator": false
+                }
+            },
+            "5": {
+                "Role Name": "Reseller",
+                "Role Color": "ff7d00",
+                "Display role separately from online members": true,
+                "Allow anyone to @mention this role": false,
+                "Can View Tickets": false,
+                "Permissions": {
+                    "view_channel": true,
+                    "manage_channels": false,
+                    "manage_roles": false,
+                    "manage_emojis": false,
+                    "manage_webhooks": false,
+                    "manage_guild": false,
+                    "create_instant_invite": true,
+                    "change_nickname": true,
+                    "manage_nicknames": false,
+                    "kick_members": false,
+                    "ban_members": false,
+                    "send_messages": true,
+                    "embed_links": true,
+                    "attach_files": false,
+                    "add_reactions": true,
+                    "external_emojis": true,
+                    "mention_everyone": false,
+                    "manage_messages": false,
+                    "read_message_history": true,
+                    "send_tts_messages": false,
+                    "use_slash_commands": true,
+                    "connect": true,
+                    "speak": true,
+                    "priority_speaker": false,
+                    "mute_members": false,
+                    "deafen_members": false,
+                    "move_members": false,
+                    "administrator": false
+                }
+            },
+            "6": {
+                "Role Name": "Support",
+                "Role Color": "00ff2f",
+                "Display role separately from online members": true,
+                "Allow anyone to @mention this role": false,
+                "Can View Tickets": true,
+                "Permissions": {
+                    "view_channel": true,
+                    "manage_channels": false,
+                    "manage_roles": false,
+                    "manage_emojis": false,
+                    "manage_webhooks": false,
+                    "manage_guild": false,
+                    "create_instant_invite": true,
+                    "change_nickname": true,
+                    "manage_nicknames": false,
+                    "kick_members": false,
+                    "ban_members": false,
+                    "send_messages": true,
+                    "embed_links": true,
+                    "attach_files": false,
+                    "add_reactions": true,
+                    "external_emojis": true,
+                    "mention_everyone": false,
+                    "manage_messages": false,
+                    "read_message_history": true,
+                    "send_tts_messages": false,
+                    "use_slash_commands": true,
+                    "connect": true,
+                    "speak": true,
+                    "priority_speaker": false,
+                    "mute_members": false,
+                    "deafen_members": false,
+                    "move_members": false,
+                    "administrator": false
+                }
+            },
+            "7": {
+                "Role Name": "Developer",
+                "Role Color": "000000",
+                "Display role separately from online members": false,
+                "Allow anyone to @mention this role": false,
+                "Can View Tickets": true,
+                "Permissions": {
+                    "view_channel": true,
+                    "manage_channels": false,
+                    "manage_roles": false,
+                    "manage_emojis": false,
+                    "manage_webhooks": false,
+                    "manage_guild": false,
+                    "create_instant_invite": true,
+                    "change_nickname": true,
+                    "manage_nicknames": false,
+                    "kick_members": false,
+                    "ban_members": false,
+                    "send_messages": true,
+                    "embed_links": true,
+                    "attach_files": false,
+                    "add_reactions": true,
+                    "external_emojis": true,
+                    "mention_everyone": false,
+                    "manage_messages": false,
+                    "read_message_history": true,
+                    "send_tts_messages": false,
+                    "use_slash_commands": true,
+                    "connect": true,
+                    "speak": true,
+                    "priority_speaker": false,
+                    "mute_members": false,
+                    "deafen_members": false,
+                    "move_members": false,
+                    "administrator": true
+                }
+            },
+            "8": {
+                "Role Name": "Team",
+                "Role Color": "00d3ff",
+                "Display role separately from online members": true,
+                "Allow anyone to @mention this role": false,
+                "Can View Tickets": true,
+                "Permissions": {
+                    "view_channel": true,
+                    "manage_channels": false,
+                    "manage_roles": false,
+                    "manage_emojis": false,
+                    "manage_webhooks": false,
+                    "manage_guild": false,
+                    "create_instant_invite": true,
+                    "change_nickname": true,
+                    "manage_nicknames": false,
+                    "kick_members": false,
+                    "ban_members": false,
+                    "send_messages": true,
+                    "embed_links": true,
+                    "attach_files": false,
+                    "add_reactions": true,
+                    "external_emojis": true,
+                    "mention_everyone": false,
+                    "manage_messages": false,
+                    "read_message_history": true,
+                    "send_tts_messages": false,
+                    "use_slash_commands": true,
+                    "connect": true,
+                    "speak": true,
+                    "priority_speaker": false,
+                    "mute_members": false,
+                    "deafen_members": false,
+                    "move_members": false,
+                    "administrator": true
+                }
+            }
+        },
+        "Misc Channels": {
+            "verify-here": {
+                "Channel Topic": "",
+                "Permissions": {
+                    "@everyone": {
+                        "view_channel": true,
+                        "send_messages": false
+                    },
+                    "Verified": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Public User": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Private User": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Reseller": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Support": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Developer": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Team": {
+                        "view_channel": true,
+                        "send_messages": true
+                    }
+                }
+            }
+        },
+        "Categories": {
+            "Important": {
+                "Permissions": {
+                    "@everyone": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Verified": {
+                        "view_channel": true,
+                        "send_messages": false
+                    },
+                    "Public User": {
+                        "view_channel": true,
+                        "send_messages": false
+                    },
+                    "Private User": {
+                        "view_channel": true,
+                        "send_messages": false
+                    },
+                    "Reseller": {
+                        "view_channel": true,
+                        "send_messages": false
+                    },
+                    "Support": {
+                        "view_channel": true,
+                        "send_messages": false
+                    },
+                    "Developer": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Team": {
+                        "view_channel": true,
+                        "send_messages": true
+                    }
+                },
+                "Channels": {
+                    "announcements": {
+                        "Channel Topic": "",
+                        "Permissions": {
+                            "@everyone": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Verified": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Public User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Private User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Reseller": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Support": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Developer": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Team": {
+                                "view_channel": true,
+                                "send_messages": true
+                            }
+                        }
+                    },
+                    "rules": {
+                        "Channel Topic": "",
+                        "Permissions": {
+                            "@everyone": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Verified": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Public User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Private User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Reseller": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Support": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Developer": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Team": {
+                                "view_channel": true,
+                                "send_messages": true
+                            }
+                        }
+                    },
+                    "terms-of-service": {
+                        "Channel Topic": "",
+                        "Permissions": {
+                            "@everyone": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Verified": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Public User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Private User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Reseller": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Support": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Developer": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Team": {
+                                "view_channel": true,
+                                "send_messages": true
+                            }
+                        }
+                    },
+                    "backup": {
+                        "Channel Topic": "",
+                        "Permissions": {
+                            "@everyone": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Verified": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Public User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Private User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Reseller": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Support": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Developer": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Team": {
+                                "view_channel": true,
+                                "send_messages": true
+                            }
+                        }
+                    },
+                    "giveaways": {
+                        "Channel Topic": "",
+                        "Permissions": {
+                            "@everyone": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Verified": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Public User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Private User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Reseller": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Support": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Developer": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Team": {
+                                "view_channel": true,
+                                "send_messages": true
+                            }
+                        }
+                    }
+                }
+            },
+            "Support": {
+                "Permissions": {
+                    "@everyone": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Verified": {
+                        "view_channel": true,
+                        "send_messages": false
+                    },
+                    "Public User": {
+                        "view_channel": true,
+                        "send_messages": false
+                    },
+                    "Private User": {
+                        "view_channel": true,
+                        "send_messages": false
+                    },
+                    "Reseller": {
+                        "view_channel": true,
+                        "send_messages": false
+                    },
+                    "Support": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Developer": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Team": {
+                        "view_channel": true,
+                        "send_messages": true
+                    }
+                },
+                "Channels": {
+                    "open-ticket": {
+                        "Channel Topic": "",
+                        "Permissions": {
+                            "@everyone": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Verified": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Public User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Private User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Reseller": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Support": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Developer": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Team": {
+                                "view_channel": true,
+                                "send_messages": true
+                            }
+                        }
+                    }
+                }
+            },
+            "General Support": {
+                "Permissions": {
+                    "@everyone": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Verified": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Public User": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Private User": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Reseller": {
+                        "view_channel": true,
+                        "send_messages": false
+                    },
+                    "Support": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Developer": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Team": {
+                        "view_channel": true,
+                        "send_messages": true
+                    }
+                },
+                "Channels": {}
+            },
+            "Payment Support": {
+                "Permissions": {
+                    "@everyone": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Verified": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Public User": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Private User": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Reseller": {
+                        "view_channel": true,
+                        "send_messages": false
+                    },
+                    "Support": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Developer": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Team": {
+                        "view_channel": true,
+                        "send_messages": true
+                    }
+                },
+                "Channels": {}
+            },
+            "Product Support": {
+                "Permissions": {
+                    "@everyone": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Verified": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Public User": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Private User": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Reseller": {
+                        "view_channel": true,
+                        "send_messages": false
+                    },
+                    "Support": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Developer": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Team": {
+                        "view_channel": true,
+                        "send_messages": true
+                    }
+                },
+                "Channels": {}
+            },
+            "AC Products": {
+                "Permissions": {
+                    "@everyone": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Verified": {
+                        "view_channel": true,
+                        "send_messages": false
+                    },
+                    "Public User": {
+                        "view_channel": true,
+                        "send_messages": false
+                    },
+                    "Private User": {
+                        "view_channel": true,
+                        "send_messages": false
+                    },
+                    "Reseller": {
+                        "view_channel": true,
+                        "send_messages": false
+                    },
+                    "Support": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Developer": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Team": {
+                        "view_channel": true,
+                        "send_messages": true
+                    }
+                },
+                "Channels": {
+                    "status": {
+                        "Channel Topic": "",
+                        "Permissions": {
+                            "@everyone": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Verified": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Public User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Private User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Reseller": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Support": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Developer": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Team": {
+                                "view_channel": true,
+                                "send_messages": true
+                            }
+                        }
+                    },
+                    "woofer": {
+                        "Channel Topic": "",
+                        "Permissions": {
+                            "@everyone": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Verified": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Public User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Private User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Reseller": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Support": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Developer": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Team": {
+                                "view_channel": true,
+                                "send_messages": true
+                            }
+                        }
+                    },
+                    "rust": {
+                        "Channel Topic": "",
+                        "Permissions": {
+                            "@everyone": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Verified": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Public User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Private User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Reseller": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Support": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Developer": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Team": {
+                                "view_channel": true,
+                                "send_messages": true
+                            }
+                        }
+                    },
+                    "eft": {
+                        "Channel Topic": "",
+                        "Permissions": {
+                            "@everyone": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Verified": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Public User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Private User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Reseller": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Support": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Developer": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Team": {
+                                "view_channel": true,
+                                "send_messages": true
+                            }
+                        }
+                    },
+                    "fortnite": {
+                        "Channel Topic": "",
+                        "Permissions": {
+                            "@everyone": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Verified": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Public User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Private User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Reseller": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Support": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Developer": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Team": {
+                                "view_channel": true,
+                                "send_messages": true
+                            }
+                        }
+                    },
+                    "apex": {
+                        "Channel Topic": "",
+                        "Permissions": {
+                            "@everyone": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Verified": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Public User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Private User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Reseller": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Support": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Developer": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Team": {
+                                "view_channel": true,
+                                "send_messages": true
+                            }
+                        }
+                    },
+                    "gta-fivem": {
+                        "Channel Topic": "",
+                        "Permissions": {
+                            "@everyone": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Verified": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Public User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Private User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Reseller": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Support": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Developer": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Team": {
+                                "view_channel": true,
+                                "send_messages": true
+                            }
+                        }
+                    }
+                }
+            },
+            "General": {
+                "Permissions": {
+                    "@everyone": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Verified": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Public User": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Private User": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Reseller": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Support": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Developer": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Team": {
+                        "view_channel": true,
+                        "send_messages": true
+                    }
+                },
+                "Channels": {
+                    "vouches": {
+                        "Channel Topic": "",
+                        "Permissions": {
+                            "@everyone": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Verified": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Public User": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Private User": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Reseller": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Support": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Developer": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Team": {
+                                "view_channel": true,
+                                "send_messages": true
+                            }
+                        }
+                    },
+                    "media": {
+                        "Channel Topic": "",
+                        "Permissions": {
+                            "@everyone": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Verified": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Public User": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Private User": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Reseller": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Support": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Developer": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Team": {
+                                "view_channel": true,
+                                "send_messages": true
+                            }
+                        }
+                    },
+                    "general": {
+                        "Channel Topic": "",
+                        "Permissions": {
+                            "@everyone": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Verified": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Public User": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Private User": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Reseller": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Support": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Developer": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Team": {
+                                "view_channel": true,
+                                "send_messages": true
+                            }
+                        }
+                    }
+                }
+            },
+            "User General": {
+                "Permissions": {
+                    "@everyone": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Verified": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Public User": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Private User": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Reseller": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Support": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Developer": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Team": {
+                        "view_channel": true,
+                        "send_messages": true
+                    }
+                },
+                "Channels": {
+                    "announcements": {
+                        "Channel Topic": "",
+                        "Permissions": {
+                            "@everyone": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Verified": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Public User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Private User": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Reseller": {
+                                "view_channel": true,
+                                "send_messages": false
+                            },
+                            "Support": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Developer": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Team": {
+                                "view_channel": true,
+                                "send_messages": true
+                            }
+                        }
+                    },
+                    "general": {
+                        "Channel Topic": "",
+                        "Permissions": {
+                            "@everyone": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Verified": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Public User": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Private User": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Reseller": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Support": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Developer": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Team": {
+                                "view_channel": true,
+                                "send_messages": true
+                            }
+                        }
+                    },
+                    "suggestions": {
+                        "Channel Topic": "",
+                        "Permissions": {
+                            "@everyone": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Verified": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Public User": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Private User": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Reseller": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Support": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Developer": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Team": {
+                                "view_channel": true,
+                                "send_messages": true
+                            }
+                        }
+                    }
+                }
+            },
+            "Staff": {
+                "Permissions": {
+                    "@everyone": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Verified": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Public User": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Private User": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Reseller": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Support": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Developer": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Team": {
+                        "view_channel": true,
+                        "send_messages": true
+                    }
+                },
+                "Channels": {
+                    "general": {
+                        "Channel Topic": "",
+                        "Permissions": {
+                            "@everyone": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Verified": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Public User": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Private User": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Reseller": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Support": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Developer": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Team": {
+                                "view_channel": true,
+                                "send_messages": true
+                            }
+                        }
+                    },
+                    "sellix": {
+                        "Channel Topic": "",
+                        "Permissions": {
+                            "@everyone": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Verified": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Public User": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Private User": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Reseller": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Support": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Developer": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Team": {
+                                "view_channel": true,
+                                "send_messages": true
+                            }
+                        }
+                    },
+                    "new-members": {
+                        "Channel Topic": "",
+                        "Permissions": {
+                            "@everyone": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Verified": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Public User": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Private User": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Reseller": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Support": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Developer": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Team": {
+                                "view_channel": true,
+                                "send_messages": true
+                            }
+                        }
+                    },
+                    "transcripts": {
+                        "Channel Topic": "",
+                        "Permissions": {
+                            "@everyone": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Verified": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Public User": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Private User": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Support": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Reseller": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Developer": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Team": {
+                                "view_channel": true,
+                                "send_messages": true
+                            }
+                        }
+                    },
+                    "resellers": {
+                        "Channel Topic": "",
+                        "Permissions": {
+                            "@everyone": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Verified": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Public User": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Private User": {
+                                "view_channel": false,
+                                "send_messages": false
+                            },
+                            "Reseller": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Support": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Developer": {
+                                "view_channel": true,
+                                "send_messages": true
+                            },
+                            "Team": {
+                                "view_channel": true,
+                                "send_messages": true
+                            }
+                        }
+                    }
+                }
+            },
+            "Closed Tickets": {
+                "Permissions": {
+                    "@everyone": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Verified": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Public User": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Private User": {
+                        "view_channel": false,
+                        "send_messages": false
+                    },
+                    "Support": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Developer": {
+                        "view_channel": true,
+                        "send_messages": true
+                    },
+                    "Team": {
+                        "view_channel": true,
+                        "send_messages": true
+                    }
+                },
+                "Channels": {}
+            }
+        },
+        "System Messages Channel": {
+            "Name": "new-members",
+            "Welcome Message": true,
+            "Sticker Reply": false,
+            "Boost Message": false,
+            "Tips": false
+        }
+    }
+}
